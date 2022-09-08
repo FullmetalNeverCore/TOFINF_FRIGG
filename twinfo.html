@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TWINFO</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body style="background-color:#121212;font-family:Poppins,Roboto,sans-serif;">
+    <div class="middle">
+        <article class="modal" style="background-color:rgba(26,25,33,.9) ">
+            <header class="simulacra">
+                <div class="header-img-wrapper" style="display: flex;">
+                    <img src="frigg_mini.webp" alt="Frigg" style="padding-left: 25px;padding: 15px;">
+                </div>
+                <div>
+                    <h1 style="padding-left: 2px;">Frigg</h1>
+                    <h2>
+                        <i style="color:#fdebb7;padding-left:2px;">SSR</i>
+                    </h2>
+                </div>
+            </header>
+            <div class="modal-body">
+                <h2 class="anchor" id="weapon" style="display: flex;padding-left: 20px;flex-direction: row;flex-wrap: nowrap;justify-content: center;">Weapon</h2>
+                <div class="weapon-header" style="display: flex;border-color: purple;flex-direction: row-reverse;">
+                    <div class="weapon-info" style="display: flex;">
+                        <h3 style="padding-left: 75px;">Balmung</h3>
+                        <div class="weapon-stat-grid" style="display: grid;padding-left: 75px;grid-template-columns: repeat(auto-fill,minmax(9rem,1fr));grid-gap: clamp(.5rem,.47rem + .14vw,.63rem);gap: clamp(.5rem,.47rem + .14vw,.63rem);">
+                            <div class="weapon-stat">
+                                <img src="dps.webp" alt="dps">
+                                <div><h5>Resonance</h5><h4>dps</h4></div>
+                            </div>
+                            <div class="weapon-stat">
+                                <img src="frost.webp">
+                                <div><h5>Element</h5><h4>ice</h4></div>
+                            </div>
+                            <div class="weapon-stat">
+                                <i style="color:#e1beff">A</i>
+                                <div><h5>Shatter</h5><h4>8.00</h4></div>
+                            </div>
+                            <div class="weapon-stat">
+                                <i style="color:#e1beff">A</i>
+                                <div><h5>Charge</h5><h4>8.00</h4></div>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="weapon-image" src="balmung.webp" alt="Balmung" style="float:right; margin:0px 0px 15px 15px; cursor:pointer; cursor:hand; border:0;padding-left: 75px;"> 
+                </div>
+            </div>
+            <div class="weapon-effects w-75ch">
+                <h3 style="display:flex;padding:15px;padding-top: 20px;">Weapon Effect</h3>
+                <div>
+                    <h4 style="color:#49a3d1;padding:15px;padding-top: 20px;">Ice Shell</h4>
+                    <p style="padding:15px;">
+                        Fully charged weapons will <strong>freeze</strong> the target for <strong>2</strong> seconds and leave it frostbitten for <strong>6</strong> seconds. Breaking the ice shell causes additional damage equal to <strong>150.00%</strong> of ATK. While frostbitten, the target's weapon charge rate is reduced by <strong>50%</strong>
+                    </p>
+                </div>
+                <div>
+                    <h4 style="color:purple;padding:15px;padding-top: 20px;">Frost Resonance</h4>
+                    <p style="padding:15px;">
+                        Increase frost ATK by <strong>15%</strong> and frost resistance by <strong>25%</strong>. Activate by equipping <strong>2</strong>  or more frost weapons. This set's effect also works with weapons in the off-hand slot. This effect does not stack.
+                    </p>
+                </div>
+            </div>
+            <div class="advancements">
+                <h3 style="padding:15px;padding-top: 20px;">Advancements</h3>
+            </div>
+            <div style="display: flex;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: flex-end;">
+                <img class="bg-img" src="frigg.webp" alt="">
+            </div>
+            <table class="modal-table">
+                <thead style="border-color:purple;">
+                    <tr>
+                        <th>
+                            <h6>Stars</h6>
+                        </th>
+                        <th>
+                            <h6>Effect</h6>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>
+                            1  ★
+                        </th>
+                        <td>
+                            <p>Gain <strong>1</strong> frostness point every time you deal <strong>550%</strong> * frost ATK of damage in the frost Domain.Up to <strong>10</strong> points can be accumulated.<br>When Frost Domain ends,frostness points * Frost ATK * <strong>95%</strong> of blast damaged will be dealt to all enemies in the Frost Domain.After leaving the Frost Domain lose <strong>1</strong> frostiness point every <strong>3</strong> seconds.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            2  ★
+                        </th>
+                        <td>
+                            <p>Increase the current weapon's base HP growth by <strong>16%</strong>.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            3  ★
+                        </th>
+                        <td>
+                            <p>Increase frostiness limit to <strong>15</strong>. When using discharge skills of frost weapons in the frost domain, deal damage equal to <strong>20%</strong> of frost ATK × (current frostiness +5) to all targets in the frost domain.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            4  ★
+                        </th>
+                        <td>
+                            <p>Increase the current weapon's base ATK growth by <strong>32%</strong>.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            5  ★
+                        </th>
+                        <td>
+                            <p>Shattering shields using frost weapons in the Frost Domain will freeze the target for <strong>2</strong> seconds and cause frostiness points × Frost ATK × <strong>35%</strong> of additional damage (if the target cannot be frozen, double the additional damage dealt).</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            6  ★
+                        </th>
+                        <td>
+                            <p>When frostiness reaches <strong>15</strong> points and you are in the Frost Domain, you will get an additional "Domain of Frost II" that increases Frost ATK by <strong>12%</strong> when frost weapons are used.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </div>
+  </body>
+</html>
